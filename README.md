@@ -1,2 +1,2 @@
 # PresidentPoll
-Predict the president based on survey data Java , R is used
+Predict the president based on survey data Python , R is used
