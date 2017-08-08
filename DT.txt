@@ -1,0 +1,9 @@
+library(party)
+library(rpart)
+library(rpart.plot)
+library(readr)
+library(dplyr)
+
+df <- read.csv('president_out.csv')
+iris_ctree <- ctree(trump_clinton_win ~ clinton_adjusted + polling_weight + state + trump_adjusted, data =  df)
+plot(iris_ctree)
